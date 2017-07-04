@@ -16,6 +16,7 @@
 ;; terminals are annoying sometimes, this fixes the blue screen of death background
 ;; color that atom-one-dark has in iTerm
 ;; THIS NEEDS TO BE AT THE TOP before packages and themes are required/loaded
+;; if you use emacs in a regular window system the colors will work fine and be pretty
 (if (not window-system)
     (defvar atom-one-dark-colors-alist
       '(("atom-one-dark-accent"   . "#528BFF")
