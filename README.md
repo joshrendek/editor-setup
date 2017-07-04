@@ -30,6 +30,13 @@ cd editor-setup
 ./setup.sh
 ```
 
+# Updating
+
+```
+cd editor-setup
+./setup.sh
+```
+
 # Documentation
 
 See [custom.el](custom.el) - every part of the configuration is documented.
