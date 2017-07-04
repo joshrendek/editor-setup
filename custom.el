@@ -70,6 +70,9 @@
                       ;; -- add go documentation to the status eldoc area buffer below powerline
                       go-eldoc
 
+                      ;; -- automatically open/close parens
+                      smartparens
+
                       ;; ## JSON ##
                       json-mode
 
@@ -152,6 +155,10 @@
 ;; enable whitespace cleanup in all buffers
 ;; this will remove un-needed whitespace at the end of lines/code blocks
 (whitespace-cleanup-mode)
+
+;; enable smart parens globally, this adds matching parens
+;; when you open them 
+(smartparens-global-mode)
 
 ;; improve redraw performance of emacs
 ;; see http://lists.gnu.org/archive/html/emacs-devel/2011-09/msg00350.html
