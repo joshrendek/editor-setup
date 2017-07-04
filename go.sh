@@ -2,7 +2,7 @@
 
 # Kill all gocode servers before updating or emacs may have a weird
 # hanging issue when you try to autocomplete
-kill -9 $(ps ax | grep gocode | awk '{print $1}')
+kill -9 $(ps ax | grep gocode | awk '{print $1}') > /dev/null 2>&1
 echo -n '.'
 
 go get -u golang.org/x/tools/cmd/goimports
