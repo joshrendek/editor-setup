@@ -24,3 +24,7 @@ Languages/tools that will be setup with this emacs config:
 # Documentation
 
 See (custom.el)[custom.el] - every part of the configuration is documented.
+
+# License
+
+MIT LICENSE
