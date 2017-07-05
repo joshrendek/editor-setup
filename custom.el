@@ -73,6 +73,9 @@
                       ;; -- automatically open/close parens
                       smartparens
 
+                      ;; ## GROOVY for Jenkinsfiles
+                      groovy-mode
+
                       ;; ## JSON ##
                       json-mode
 
@@ -157,7 +160,7 @@
 (whitespace-cleanup-mode)
 
 ;; enable smart parens globally, this adds matching parens
-;; when you open them 
+;; when you open them
 (smartparens-global-mode)
 
 ;; improve redraw performance of emacs
