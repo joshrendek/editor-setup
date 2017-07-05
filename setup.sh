@@ -3,7 +3,7 @@ normal=$'\e[0m'                           # (works better sometimes)
 bold=$(tput bold)                         # make colors bold/bright
 green=$(tput setaf 2)                     # dim green text
 pwd=$(pwd)
-if [ -d "~/.emacs.d/prelude" ]; then
+if [ ! -d "~/.emacs.d/prelude" ]; then
   echo "Installing Prelude"
   curl -L https://git.io/epre | sh
 else
